@@ -1,0 +1,22 @@
+{
+  "name": "fotolab-website",
+  "version": "0.0.1",
+  "description": "## 使用模板技术 - Nunjucks",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudbeer/fotolab-website.git"
+  },
+  "author": "Xie Zhengwei <iam@xiezhengwei.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudbeer/fotolab-website/issues"
+  },
+  "homepage": "https://github.com/cloudbeer/fotolab-website#readme",
+  "dependencies": {
+    "nunjucks": "^3.1.4"
+  }
+}
