@@ -1,5 +1,4 @@
 module.exports = {
-
     slogan: "分享我们对胶片摄影的热情",
     lang: "zh-CN",
     base_font_size: "14px",
@@ -40,5 +39,17 @@ module.exports = {
          something<br>Catarina Braga<br><br>
          something<br>姥姥<br>`
     },
+    services: {
+        title: "服务",
+    },
+    the_lab:{
+        title:"实验室",
+    },
+    workshops_news:{
+        title:"工作坊/新闻",
+    },
+    contact:{
+        title:"联系",
+    }
 
 };
