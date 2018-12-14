@@ -26,7 +26,7 @@ const covertFile = (file, lngRes) => {
 const server = http.createServer((req, res) => {
   const vUrl = path.parse(req.url);
   if (vUrl.base === "favicon.ico") {
-    return;
+    return false;
   }
 
   // console.log(vUrl);

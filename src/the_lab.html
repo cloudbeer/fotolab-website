@@ -8,8 +8,40 @@
 <div class="p-3 p-md-5">
   <div class="col-md-12 px-0 text-center">
     <h1 class="display-6">{{the_lab.title}}</h1>
+    <div class="hi-line"></div>
   </div>
 </div>
 
+<div class="row">
+  <div class="col-8 offset-2">{{the_lab.p1}}</div>
+</div>
+
+<div class="row">
+  <div class="col-4 offset-4" style="background:#ccc;height:200px;"></div>
+</div>
+
+<div class="row mt-5">
+  <div class="col-4" style="padding-top:100px;"></div>
+  <div class="col-3">
+    {{the_lab.p2}}
+    <p>{{menu.price2}}</p>
+  </div>
+  <div class="col-5" style="padding-top:300px">
+    <h4><a href="membership.html">{{menu.become_member}}</a></h4>
+    {{the_lab.p3}}
+    <div class="the-lab-p3"></div>
+  </div>
+</div>
+
+<div class="row mt-5">
+  <div class="col-6 offset-3" style="background:#ccc;height:300px;"></div>
+</div>
+
+<div class="row mt-5 mb-5">
+  <div class="col-12 text-center">
+    <div class="hi-line"></div>
+    <a href="services.html" class="footer-link">{{menu.services2}}</a>
+  </div>
+</div>
 
 {% endblock %}
