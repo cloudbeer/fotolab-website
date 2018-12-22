@@ -57,24 +57,74 @@
     margin-top: 40px;
 }
 
-.about_us_p2{
+.about_us_p1 {
+    width: 445px;
+    height: 334px;
+    background: url(../img/about_us_p1.jpg) no-repeat;
+
+}
+
+.about_us_p2 {
     width: 445px;
     height: 258px;
     background: url(../img/about_us_p2.jpg) no-repeat;
 
 }
+
+.about_us_p3 {
+    width: 570px;
+    height: 355px;
+    background: url(../img/about_us_p3.jpg) no-repeat;
+
+}
+
 .the-lab-p3 {
     width: 445px;
     height: 242px;
     background: url(../img/the_lab_p3.jpg) no-repeat;
 }
+
 .news-p1 {
     width: 445px;
     height: 356px;
     background: url(../img/news_p1.jpg) no-repeat;
 }
+
 .news-p2 {
     width: 400px;
     height: 533px;
     background: url(../img/news_p2.jpg) no-repeat;
+}
+
+.services-p1 {
+    width: 100%;
+    height: 298px;
+    background: url(../img/serivces_p1.jpg) no-repeat;
+    background-position: right;
+}
+
+.services-p2 {
+    width: 100%;
+    height: 633px;
+    background: url(../img/serivces_p2.jpg) no-repeat;
+    background-position: center;
+}
+
+.services-p3 {
+    width: 100%;
+    height: 298px;
+    background: url(../img/serivces_p3.jpg) no-repeat;
+    background-position: right;
+}
+
+.services-p4-1 {
+    width: 730px;
+    height: 407px;
+    background: url(../img/serivces_p4_1.jpg) no-repeat;
+}
+
+.services-p4-2 {
+    width: 445px;
+    height: 298px;
+    background: url(../img/serivces_p4_2.jpg) no-repeat;
 }
