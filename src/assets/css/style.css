@@ -17,6 +17,11 @@
 .fotolab-logo {
     width: 64px;
     height: 64px;
+    background: url(../img/logo.png) no-repeat;
+    overflow: hidden;
+    text-indent: -1280px;
+    padding: 0;
+    margin: 0;
 }
 
 .fix-bottom {
@@ -58,8 +63,8 @@
 }
 
 .about_us_p1 {
-    width: 445px;
-    height: 334px;
+    width: 400px;
+    height: 533px;
     background: url(../img/about_us_p1.jpg) no-repeat;
 
 }
@@ -75,6 +80,12 @@
     width: 570px;
     height: 355px;
     background: url(../img/about_us_p3.jpg) no-repeat;
+
+}
+.the-lab-p1{
+    width: 475px;
+    height: 318px;
+    background: url(../img/the_lab_p1.jpg) no-repeat;
 
 }
 
@@ -104,8 +115,9 @@
 }
 
 .services-p2 {
-    width: 100%;
-    height: 633px;
+    width: 315px;
+    height: 448px;
+    margin-left:68px;
     background: url(../img/serivces_p2.jpg) no-repeat;
     background-position: center;
 }

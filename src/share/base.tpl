@@ -11,16 +11,12 @@
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
     <script src="https://cdn.bootcss.com/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
     <style>
-        {
-                {
-                share_styles
-            }
-        }
+        {{share_styles}}
     </style>
 </head>
 
@@ -33,7 +29,7 @@
             <a class="p-2 pt-4 text-muted" href="about_us.html">{{menu.about_us}}</a>
             <a class="p-2 pt-4 text-muted" href="services.html">{{menu.services}}</a>
             <a class="p-2 pt-4 text-muted" href="the_lab.html">{{menu.the_lab}}</a>
-            <a class="text-muted" href="index.html"><img class="fotolab-logo" src="assets/img/logo.png" /></a>
+            <a class="text-muted" href="index.html"><h1 class="fotolab-logo">fotolab 捉影实验室</h1></a>
             <a class="p-2 pt-4 text-muted" href="workshops_news.html">{{menu.workshops_news}}</a>
             <a class="p-2 pt-4 text-muted" href="contact.html">{{menu.contact}}</a>
             <a class="p-2 pt-4 text-muted" href="lang_switch.html">{{menu.lang_switch}}</a>
