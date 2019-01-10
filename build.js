@@ -5,7 +5,9 @@ const mime = require("mime");
 const fs = require("fs");
 
 //==------------
-const lang = "en";
+const lang = "zh-cn";
+const dev = false;
+//--------------
 const srcPath = "./src/";
 const resPath = "./src/share/" + lang + ".js";
 const tarPath = "./publish/" + lang + "/";
@@ -122,7 +124,6 @@ server.on('clientError', (err, socket) => {
 
 
 
-const dev = true;
 if (dev){
   server.listen(8000);
   console.log("http://localhost:8000/");

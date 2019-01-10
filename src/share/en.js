@@ -21,6 +21,7 @@ module.exports = {
         become_member: "Become a member.",
         services2: "Check our services",
         price2: "Check the full price list.",
+        conditions: "Read the full agreement with the terms and conditions."
     },
     footer: {
         contact_title: "Contact",
@@ -97,7 +98,7 @@ module.exports = {
         <p>You can make a reservation for the darkroom and use it to process your own films and to enlarge your photos.</p>
         <p>Or you can become a member of FOTOLAB and have a 24-hour unlimi- ted access to the darkroom and equipment!</p>
         <p>Members also have exclusive discounts on FOTOLAB’s activities, in film and paper.</p>
-        <p class='pt-4 pb-4'><strong>Become a member.</strong></p>
+        <p class='pt-4 pb-4'><a href='membership.html'><strong>Become a member.</strong></a></p>
         <p>
         * All chemistry is provided, photographers must bring their own paper.
         </p>
@@ -110,7 +111,7 @@ module.exports = {
         Select the size and choose from the variety of fine art papers we provide.
         </p>
         <p class="pt-4 pb-4">
-        Check the <a href=''>price list.</a>.
+        Check the <a href='price-list.pdf' target='_blank'>price list.</a>.
         </p>
         `,
         price1: `
@@ -242,7 +243,61 @@ module.exports = {
         Take the exit B and from the subway station is just a 5 min walk to the north district of OCT-Loft. We're on the second floor of the A5 building.
         </p>
         `,
-        follow_wechat:"Follow us on WeChat"
+        follow_wechat: "Follow us on WeChat"
+    },
+    membership: {
+        title: "Membership",
+        p1: `
+        <h4>2000 ¥ / month</h4>
+        <ul>
+        <li> 24-hour unlimited access to the darkroom (except for Monday); </li>
+        <li> Access to all facilities including scanning equipment;</li>
+        <li> Use of professional quality Flextight film scanners;</li>
+        <li> Priority in booking FOTOLAB’s activities;</li>
+        <li> 15% discount in Workshops & Masterclasses; </li>
+        <li> Exclusive discounts on film and paper.</li>
+        </ul>
+        <p class="mb-5">
+        * Minimum commitment of 3 months, on a month to month basis.<br>
+        * All chemistry is provided, photographers must bring their own paper.
+        </p>
+        <h4>20,000 ¥ / year</h4>
+        <strong>* discounted price if you sign up for one year.</strong>
+        `,
+        p2: `<strong>If you would like a tour of the facilities, please come by anytime during our open hours.</strong>`,
+        p3: `
+        <h4>Reservation / Drop-in client</h4>
+        <ul class="mb-5">
+        <li>Use of 4 hours at a time;</li>
+        <li>Darkroom available from 10:00 am — 6:00 pm (except for Monday).</li>
+        </ul>
+        <h4>Hourly rates:</h4>
+        <ul>
+        <li>B&W Film Processing: 100 ¥</li>
+        <li>B&W Enlarging: 160 ¥</li>
+        <li>Film Scanner - Epson V750: 80 ¥</li>
+        </ul>
+        <p>* All chemistry is provided, photographers must bring their own paper.</p>
+        <h4 class="mt-5">If you have no experience in the darkroom and / or haven’t attended any of FOTOLAB’s darkroom workshops, you should require a private tutor / assistant before using the facilities.</h4>
+        <ul>
+        <li>A 1-hour private lesson can be provided for 500¥ teaching you the step by step of black & white film processing.</li>
+        <li>A 2-hours private lesson can be provided for 1000¥ teaching you the step by step of black & white darkroom printing.</li>
+        </ul>
+        `,
+        p4_title: "Conditions",
+        p4: `
+        <ul>
+        <li>A reservation must be made 3 days in advance before use.</li>
+        <li>To require private tutors and assistants, an appointment must also be made 3 days in advance.</li>
+        <li>Users must be at least 18 years old and have full civil capacity.</li>
+        <li>Users are required to strictly abide by the darkroom usage regulations.</li>
+        </ul>
+        `,
+        p5:`If you wish to become a member of FOTOLAB and enjoy the services <br> 
+        we provide, fill out <a href='fotolab-membership.docx' target="_blank">this form</a> 
+        and send it to us: fotolabsz@filmlab.com <br><br><br>
+        Or come and visit us!
+        `
     }
 
 };

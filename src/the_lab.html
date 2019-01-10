@@ -1,6 +1,6 @@
 {% extends "./share/base.tpl" %}
 
-{% block pageTitle %}{{services.title}}{% endblock %}
+{% block pageTitle %}{{the_lab.title}}{% endblock %}
 
 
 {% block content %}
@@ -26,7 +26,7 @@
   <div class="col-4" style="padding-top:100px;"></div>
   <div class="col-3">
     {{the_lab.p2}}
-    <p>{{menu.price2}}</p>
+    <p><a href="price-list.pdf" target="_blank">{{menu.price2}}</a></p>
   </div>
   <div class="col-5" style="padding-top:300px">
     <h4><a href="membership.html">{{menu.become_member}}</a></h4>

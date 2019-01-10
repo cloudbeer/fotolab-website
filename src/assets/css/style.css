@@ -82,7 +82,8 @@
     background: url(../img/about_us_p3.jpg) no-repeat;
 
 }
-.the-lab-p1{
+
+.the-lab-p1 {
     width: 475px;
     height: 318px;
     background: url(../img/the_lab_p1.jpg) no-repeat;
@@ -117,7 +118,7 @@
 .services-p2 {
     width: 315px;
     height: 448px;
-    margin-left:68px;
+    margin-left: 68px;
     background: url(../img/serivces_p2.jpg) no-repeat;
     background-position: center;
 }
@@ -139,4 +140,11 @@
     width: 445px;
     height: 298px;
     background: url(../img/serivces_p4_2.jpg) no-repeat;
+}
+
+#mdPrice .modal-dialog {
+    min-width: 800px;
+}
+
+#mdPrice .modal-content {
 }
